@@ -1,0 +1,58 @@
+
+.lit {
+  background-color: lightgreen;
+  font-size: 1.4rem;
+  padding-left: 1rem;
+  border-radius: 0.5rem;
+}
+.dark {
+  background-color: gray;
+  color: rgb(16, 12, 238);
+  font-size: 1.4rem;
+  padding-left: 1rem;
+  border-radius: 0.5rem;
+}
+
+.App {
+  width: 20%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  box-shadow: 0 0 3px;
+  margin-top: 5rem;
+  padding: 2rem;
+  line-height: 3rem;
+  border-radius: 1rem;
+}
+
+.count {
+  width: 80%;
+  padding: 2rem;
+  columns: blue;
+  font-weight: bold;
+}
+
+.reset {
+  background-color: rgb(123, 211, 219);
+  font-size: 2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  display: block;
+}
+
+.reset:hover{
+  background-color: orange;
+}
+
+.switch {
+  background-color: blueviolet;
+  color: white;
+  font-size: 2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 2rem;
+}
+ 
